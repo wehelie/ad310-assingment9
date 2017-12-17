@@ -19,7 +19,7 @@ Next, on the `Create a new repository` page, I simply give my repo a name; I cal
 
 - - - 
 
-# How to Create a Github Repo for the First Time
+# How to push to a new Github Repo for the First Time
 
 Now that I've created my repo, I need to populate or `push` data to it. There are many ways of doing this, but this best option is to use the command-line (of course, you must install git to your computer). To create the new repo using the command, I followed these steps:
 
@@ -35,3 +35,24 @@ git push -u origin master
 - - - 
 
 ![](3.png)
+
+
+My repo has been created and data has been `push` to it. Here is how it looks like:
+
+![](4.png)
+
+ - - -
+
+
+# How to Create a new branch
+
+There are several ways to create branches in Github. The simpliest way is to use the command-line:
+
+```
+git checkout -b [the name of the new branch]
+```
+
+This creates a new branch in my local machine which I can push to my repo that is already existing.
+
+
+![](5.png)
